@@ -99,6 +99,10 @@ a.btn-main:hover,
     -moz-box-shadow: none;
 }
 
+.blackSlider {
+    color:black;
+}
+
 .de-black .nft__item,
 .de-black .nft_coll,
 .de-black .nft_coll.style-2,
@@ -200,6 +204,7 @@ input[type=button].btn-main,
     -moz-border-radius: 0px;
     -webkit-border-radius: 0px;
 }
+
 
 .de-black #subheader {
     background:none;

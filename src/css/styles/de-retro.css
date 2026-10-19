@@ -154,6 +154,8 @@ a.btn-main:hover,
     -webkit-border-radius: 0;
 }
 
+
+
 .de-retro .rounded{
     border-radius: 0 !important;
 }
@@ -174,6 +176,8 @@ input[type=button].btn-main,
     -moz-border-radius: 0px;
     -webkit-border-radius: 0px;
 }
+
+
 
 .nft__item_extra{
     background: #FDFBF8;

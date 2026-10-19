@@ -1,0 +1,41 @@
+/* Change slider arrows to black */
+.blackSlider .slick-prev:before,
+.blackSlider .slick-next:before {
+  color: black;
+  font-size:25px;
+
+}
+
+/* Main image placeholder */
+.skeleton-box {
+  width: 100%;
+  height: 200px;
+  border-radius: 8px;
+  background: linear-gradient(
+    90deg,
+    #eeeeee 25%,
+    #dddddd 50%,
+    #eeeeee 75%
+  );
+  background-size: 200% 100%;
+
+}
+
+/* Placeholder text */
+.skeleton-text {
+  display: block;
+  width: 70%;
+  height: 16px;
+  margin: 12px 0;
+  border-radius: 4px;
+  background: linear-gradient(
+    90deg,
+    #eeeeee 25%,
+    #dddddd 50%,
+    #eeeeee 75%
+  );
+  background-size: 200% 100%;
+  color: transparent;
+
+}
+
