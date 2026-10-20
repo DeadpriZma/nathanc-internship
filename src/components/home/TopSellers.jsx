@@ -15,7 +15,7 @@ const TopSellers = () => {
     setTimeout(() => {
       newData(data);
       setLoaded(true);
-    }, 3000);
+    }, 3000); 
   }
 
   useEffect(() => {
