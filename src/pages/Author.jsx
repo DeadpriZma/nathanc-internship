@@ -12,14 +12,14 @@ const Author = () => {
 
   const [data, newData] = useState({});
 
-  async function getDatabase() {
+
+  useEffect(() => {
+      async function getDatabase() {
     const { data } = await axios.get(
       `https://us-central1-nft-cloud-functions.cloudfunctions.net/authors?author=${id}`,
     );
     newData(data);
   }
-
-  useEffect(() => {
     getDatabase();
   }, []);
 

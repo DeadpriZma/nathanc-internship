@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
-import AuthorImage from "../../images/author_thumbnail.jpg";
-import nftImage from "../../images/nftImage.jpg";
 import axios from "axios";
 
 
@@ -12,15 +10,16 @@ const AuthorItems = () => {
 
   const [data, newData] = useState({});
 
-  async function getDatabase() {
+
+
+  useEffect(() => {
+    async function getDatabase() {
     const {data} = await axios.get(
       `https://us-central1-nft-cloud-functions.cloudfunctions.net/authors?author=${id}`,
     );
     newData(data);
     
   }
-
-  useEffect(() => {
     getDatabase();
   }, [id]);
 

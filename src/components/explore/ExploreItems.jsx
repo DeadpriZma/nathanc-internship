@@ -32,13 +32,13 @@ const ExploreItems = () => {
 
   const [filter, setFilter]= useState("");
 
-  if (filter =="price_high_to_low"){
+  if (filter ==="price_high_to_low"){
         data.sort((a, b) => b.price - a.price)
       }
-  if (filter =="price_low_to_high"){
+  if (filter ==="price_low_to_high"){
         data.sort((a, b) => a.price - b.price)
       }
-  if (filter =="likes_high_to_low"){
+  if (filter ==="likes_high_to_low"){
         data.sort((a, b) => b.likes - a.likes)
       }
 
@@ -124,7 +124,7 @@ const ExploreItems = () => {
                 </div>
                 <div className="nft__item_info">
                   <Link to="/item-details">
-                    <h4>{post.title}</h4>
+                    <h4>{post.title}.</h4>
                   </Link>
                   <div className="nft__item_price">{post.price} ETH</div>
                   <div className="nft__item_like">

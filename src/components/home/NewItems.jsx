@@ -145,7 +145,7 @@ const NewItems = () => {
                 </div>
                 <div className="skeleton-text">
                   <Link to="/item-details">
-                    <h4></h4>
+                    
                   </Link>
                   <div className="nft__item_price"></div>
                   <div className="nft__item_like">
