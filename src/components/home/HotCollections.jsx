@@ -101,7 +101,7 @@ const HotCollections = () => {
                         <div className="skeleton-box"></div>
                       </div>
                       <div className="nft_coll_info">
-                        <h4 className="skeleton-text"></h4>
+                        <h4 className="skeleton-text">&nbsp;</h4>
                         <span className="skeleton-text"></span>
                       </div>
                     </div>

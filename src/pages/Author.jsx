@@ -21,7 +21,7 @@ const Author = () => {
     newData(data);
   }
     getDatabase();
-  }, []);
+  }, [id]);
 
   return (
     <div id="wrapper">
