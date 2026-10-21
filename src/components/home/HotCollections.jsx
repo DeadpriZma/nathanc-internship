@@ -30,7 +30,7 @@ const HotCollections = () => {
     <section id="section-collections" className="no-bottom">
       <div className="container">
         <div className="row">
-          <div className="col-lg-12">
+          <div data-aos="fade-up" className="col-lg-12">
             <div className="text-center">
               <h2>Hot Collections</h2>
               <div className="small-border bg-color-2"></div>
@@ -61,7 +61,7 @@ const HotCollections = () => {
             ]}
           >
             {loaded ? data.map((collection) => (
-              <div key={collection.nftId}>
+              <div data-aos="fade-up" key={collection.nftId}>
                 <div className="nft_coll">
                   <div className="nft_wrap">
                     <Link to={`/item-details/${collection.nftId}`}>
