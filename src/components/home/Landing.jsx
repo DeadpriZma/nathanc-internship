@@ -12,7 +12,7 @@ const Landing = () => {
       data-bgimage="url(images/bg-shape-1.jpg) bottom"
       style={{ background: `url(${backgroundImage}) bottom / cover` }}
     >
-      <div className="v-center">
+      <div data-aos="fade-up" className="v-center">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-md-6">
